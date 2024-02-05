@@ -1,13 +1,12 @@
 ---
 sidebar_position: 7
 ---
+
+# Tablar
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-# Tablar
-
 <Tabs>
-<TabItem value="apple" default>
-
+<TabItem value="apple" label="Apple" default>
 ```
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
@@ -21,7 +20,6 @@ trace:
   enabled: false
 EOF
 ```
-
 </TabItem>
   <TabItem value="orange" label="Orange">
     This is an orange 🍊
