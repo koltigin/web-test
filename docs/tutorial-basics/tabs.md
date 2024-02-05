@@ -4,7 +4,7 @@ sidebar_position: 7
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 # Tablar
-
+```
 <Tabs>
 <TabItem value="apple" default>
 ```
@@ -28,7 +28,8 @@ EOF
     This is a banana 🍌
   </TabItem>
 </Tabs>
-
+```
+```
 <Tabs>
 <TabItem value="Polygon">
 ```
@@ -136,3 +137,4 @@ EOF
 ```
 </TabItem>
 </Tabs>
+```
