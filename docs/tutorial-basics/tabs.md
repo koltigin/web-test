@@ -4,9 +4,10 @@ sidebar_position: 7
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 # Tablar
-```
+
 <Tabs>
 <TabItem value="apple" default>
+
 ```
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
@@ -20,6 +21,7 @@ trace:
   enabled: false
 EOF
 ```
+
 </TabItem>
   <TabItem value="orange" label="Orange">
     This is an orange 🍊
@@ -28,10 +30,10 @@ EOF
     This is a banana 🍌
   </TabItem>
 </Tabs>
-```
-```
+
 <Tabs>
 <TabItem value="Polygon">
+
 ```
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
@@ -47,7 +49,8 @@ EOF
 ```
 </TabItem>
 <TabItem value="BSC">
-```  
+
+  ```  
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
 chainId: 56
@@ -60,9 +63,11 @@ trace:
   enabled: false
 EOF
 ```
+
 </TabItem>
 <TabItem value="Ethereum">
-``` 
+
+  ``` 
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
 chainId: 1
@@ -77,7 +82,8 @@ EOF
 ```
 </TabItem>
 <TabItem value="Arbitrum">
-```
+
+  ```
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
 chainId: 42161
@@ -92,7 +98,8 @@ EOF
 ```
 </TabItem>
 <TabItem value="Optimism">
-``` 
+
+  ``` 
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
 chainId: 10
@@ -107,7 +114,8 @@ EOF
 ```
 </TabItem>
 <TabItem value="Avalanche">
-``` 
+
+  ``` 
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
 chainId: 43114
@@ -122,7 +130,8 @@ EOF
 ```
 </TabItem>
 <TabItem value="Fantom">
-``` 
+
+  ``` 
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
 chainId: 250
@@ -137,4 +146,3 @@ EOF
 ```
 </TabItem>
 </Tabs>
-```
