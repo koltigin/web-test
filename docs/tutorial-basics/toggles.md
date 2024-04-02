@@ -6,9 +6,13 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <details>
+  
 <summary>Değişecek yerleri bıradan inceleyebilirsiniz.</summary>
+  
   Deneme aşılır kapanır kutu
+  
 </details>
+
 <Tabs>
 <TabItem value="Orijinal Hali">
 
