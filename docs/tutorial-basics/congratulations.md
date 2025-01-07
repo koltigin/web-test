@@ -4,6 +4,9 @@ sidebar_position: 6
 
 # Tebrikler!
 
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
+
 You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
 
 Docusaurus has **much more to offer**!
@@ -21,3 +24,13 @@ Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://
 - Add a [search bar](https://docusaurus.io/docs/search)
 - Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
 - Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+
+<div className="video-container">
+<LiteYouTubeEmbed
+    id="IgeE1mg1aYk"
+    params="autoplay=1&autohide=1&showinfo=0&rel=0"
+    title="How to submit an app to the Solana dApp Store"
+    poster="hqdefault"
+    webp
+/>
+</div>
